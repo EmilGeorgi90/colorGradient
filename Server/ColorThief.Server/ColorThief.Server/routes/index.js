@@ -19,7 +19,9 @@ router.get('/image', function (req, res){
     res.header("Access-Control-Allow-Origin", "*")
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
-        cloudinary.api.resource('y0zvhxnxfesbqi2rfarg',  
+    cloudinary.v2.uploader.upload("/home/my_image.jpg", 
+    function(error, result) {console.log(result, error)});
+            cloudinary.api.resource('y0zvhxnxfesbqi2rfarg',  
                         function(result)  { 
                             res.jsonp({color1: result.colors[0][0], color2: result.colors[1][0], color3: result.colors[2][0]}) 
                         }, { colors: true });
