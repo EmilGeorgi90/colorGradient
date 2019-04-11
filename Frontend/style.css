@@ -86,10 +86,6 @@
 .slick-arrow.slick-hidden {
   display: none;
 }
-@font-face {
-  font-weight: 400;
-  font-style: normal;
-}
 .slick-next,
 .slick-prev {
   font-size: 0;
@@ -9927,7 +9923,6 @@ h5 {
   border-right: 1px solid #fff;
   color: #fff;
   display: inline-block;
-  float: left;
   font-family: Quarto;
   font-size: 12px;
   margin-right: 10px;
@@ -10753,7 +10748,6 @@ ul.check-mark li:before {
 }
 .question-boxes .box span.icon {
   display: inline-block;
-  float: right;
   width: 40px;
   text-align: center;
   font-size: 24px;

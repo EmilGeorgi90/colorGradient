@@ -21,6 +21,7 @@
     "postcss-easing-gradients": "^3.0.1",
     "pug": "^2.0.0-beta6",
     "serve-favicon": "^2.3.0",
+    "tinycolor2": "^1.4.1",
     "windows-build-tools": "^5.1.0"
   }
 }
